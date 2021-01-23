@@ -1,0 +1,25 @@
+<core:FragmentDefinition
+		xmlns="sap.m"
+		xmlns:smartfilterbar="sap.ui.comp.smartfilterbar"
+		xmlns:core="sap.ui.core">
+	<!-- Price Filter-->
+	<smartfilterbar:ControlConfiguration key="localDate" 
+	label="Local Date" visibleInAdvancedArea="true" groupId="_BASIC" preventInitialDataFetchInValueHelpDialog="false">
+		<smartfilterbar:customControl>
+			<DateTimePicker ></DateTimePicker>
+            <!-- <Input showValueHelp="true"></Input> -->
+		</smartfilterbar:customControl>
+	</smartfilterbar:ControlConfiguration> 
+    <smartfilterbar:ControlConfiguration key="customShipCity" 
+	label="custom shipCity" visibleInAdvancedArea="true" groupId="_BASIC" preventInitialDataFetchInValueHelpDialog="false">
+		<smartfilterbar:customControl>			
+            <Input ></Input>
+		</smartfilterbar:customControl>
+	</smartfilterbar:ControlConfiguration> 
+    <!-- <smartfilterbar:ControlConfiguration key="ShipCountry" 
+	visibleInAdvancedArea="true" groupId="_BASIC" preventInitialDataFetchInValueHelpDialog="false">
+		<smartFilterBar:defaultFilterValues>
+		<smartFilterBar:SelectOption low="France" ></smartFilterBar:SelectOption>
+		</smartFilterBar:defaultFilterValues>
+	</smartfilterbar:ControlConfiguration> -->
+</core:FragmentDefinition>

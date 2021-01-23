@@ -1,0 +1,5 @@
+<core:FragmentDefinition xmlns:core="sap.ui.core" xmlns="sap.m">
+       <!-- <RatingIndicator value="{= ${Price} > 500 ? 1:5}"></RatingIndicator> -->
+       <DatePicker dateValue="{ShippedDate}" editable="false"/>
+       <ObjectStatus text="{ShipCountry}" state="{path:'Freight',formatter:'.symanticContry'}"/>
+</core:FragmentDefinition>
