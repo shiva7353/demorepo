@@ -39,6 +39,7 @@
                         </Record>
                     </Collection>
                 </Annotation>
+                
                 <Annotation Term="UI.SelectionFields">
                     <Collection>
                         <PropertyPath>CustomerID</PropertyPath>
