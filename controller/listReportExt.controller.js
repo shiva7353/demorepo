@@ -21,7 +21,7 @@ sap.ui.define([], function () {
             if (sShipCity) {
                 oBindingParams.filters.push(new sap.ui.model.Filter("ShipCity", "EQ", sShipCity));
             }
-
+//comment
            
         },
         onInitSmartFilterBarExtension: function (oEvent) {
